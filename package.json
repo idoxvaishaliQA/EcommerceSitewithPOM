@@ -1,0 +1,17 @@
+{
+  "name": "ecommerce-test-pom",
+  "version": "1.0.0",
+  "description": "Playwright test suite (Page Object Model) for the Rahul Shetty Academy GreenKart practice shop",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ci": "playwright test",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "e2e", "ecommerce", "page-object-model"],
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "1.56.0"
+  }
+}
